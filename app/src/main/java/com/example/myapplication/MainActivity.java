@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         MadView.loadAd(adRequest);
 
         AdView adView = new AdView(this);
-        adView.setAdSize(AdSize.BANNER); //광고 사이즈는 배너 사이즈로 설정
+        adView.setAdSize(AdSize.FULL_BANNER); //광고 사이즈는 배너 사이즈로 설정
         adView.setAdUnitId("\n" + "ca-app-pub-3940256099942544/6300978111");
     }
 }
